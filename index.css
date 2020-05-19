@@ -1,0 +1,142 @@
+@font-face {
+    src: url("fonts/Farsi-Digits/Vazir-FD.ttf");
+    font-family: vazir;
+
+}
+@media (min-width: 992px){
+    #header {
+        margin: 0px 0px 10px 0px;
+    }
+}
+body{
+    margin: 0px auto;
+    font-family: vazir !important;
+}
+
+.header-top{
+    position: relative;
+    z-index: 1001;
+    font-size: .7857em;
+    background-color: black;
+}
+#header .header-top .container {
+    position: relative;
+    display: table;
+}
+#header .header-right{
+    text-align: left;
+}
+#header .header-left{
+    text-align: right;
+}
+#header .header-top .welcome-msg {
+    line-height: 30px;
+    letter-spacing: 0.28333px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+}
+#header .header-top .container>div {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+.header-top .welcome-msg{
+    color: #ffdb8b;
+}
+
+#header .header-main {
+    position: relative;
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: initial;
+    background-image: none;
+    background-color: #fff;
+}
+.flex-display{
+    display: flex;
+    padding: 10px 0px;
+}
+.standard-logo{
+    padding: 30px 0px 0px 0px;
+}
+#header header .above_menu {
+    padding-top: 25px;
+}
+#header header .flat-menu li {
+    position: relative;
+}
+#header header .above_menu ul li {
+    padding: 0 10px;
+}
+.above_menu ul li a {
+    color: #79797A;
+}
+
+#header header .flat-menu li a {
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+#header header .above_menu i {
+    font-size: 20px;
+}
+#header header .above_menu ul li a {
+    font-size: 12px;
+    color: #000;
+}
+.above_menu .flat-menu button{
+    background-color: #FFC42A;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px;
+}
+.above_menu ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    position: relative;
+
+}
+
+form.example input[type=text] {
+    padding: 2px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+form.example button {
+    float: left;
+    width: 12%;
+    padding: 2px;
+    background: #BDBEC0;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+form.example button:hover {
+    background: #BDBEC0;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.bottom-menu ul li{
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+}
+
+
