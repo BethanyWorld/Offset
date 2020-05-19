@@ -58,8 +58,8 @@ body{
     display: flex;
     padding: 10px 0px;
 }
-.standard-logo{
-    padding: 30px 0px 0px 0px;
+.standard-logo {
+    padding: 25px 0px 0px 0px;
 }
 #header header .above_menu {
     padding-top: 25px;
@@ -91,7 +91,7 @@ body{
     border: none;
     border-radius: 3px;
     color: #fff;
-    padding: 10px;
+    padding: 5px;
 }
 .above_menu ul li{
     display: inline-block;
