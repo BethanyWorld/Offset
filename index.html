@@ -1,77 +1,841 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Html</title>
-	<link rel="stylesheet" href="index.css">
-	<link rel="stylesheet" href="helper-css.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>koofa</title>
+    <link rel="stylesheet" href="assets/plugins/bootstrap/v3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/font-awesome-css.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- owlcarousel -->
+    <link rel="stylesheet" href="assets/plugins/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/owl/owl.theme.default.min.css">
+    <script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
 </head>
+
 <body>
-	<header id="header" class="header">
-		<div class="header-top">
-			<div class="container">
-				<div class="header-right">
-					<span class="welcome-msg">021 88174280</span>
-				</div>
-			</div>
-		</div>
-		<div class="header-main">
-			<div class="container flex-display">
-				<div class="col-md-3 hidden-sm hidden-xs">
-					<form class="example" style="margin:auto;max-width:300px">
-						<input type="text" placeholder="Search.." name="search2">
-						<button type="submit"><i class="fa fa-search"></i></button>
-					</form>
-				</div>
-				<div class="col-md-6 header-left hidden-sm hidden-xs">
-					<div class="above_menu">
-						<ul class="list-unstyled list-inline flat-menu">
-							<li>
-								<a href="#">
-									login
-									<i class="fa fa-sign-in"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									sign in
-									<i class="fa fa-user"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<button>
-										<i class="fa fa-shopping-basket"></i>
-										basket</button>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="bottom-menu">
-						<ul>
-							<li>
-								Hello
-							</li><li>
-								Hello
-							</li><li>
-								Hello uyhfyufyu
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="header-right col-md-3 standard-logo">
-					<a href="#">
-						<img src="Images/top_logo.png" height="40" width="auto">
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="header-wrap"></div>
-	</header>
+    <!-- top -->
+    <div class="col-lg-12">
+        <!-- slider -->
+        <div class="row">
+            <div class="col-lg-12 p-0">
+                <div class="owl-carousel owl-theme one-slider">
+                    <div class="item slider-top-banners">
+                        <img class="owl" src="assets/img/home/slider/Slideshow-01.jpg">
+                    </div>
+                    <div class="item slider-top-banners">
+                        <img class="owl" src="assets/img/home/slider/Slideshow-02.jpg">
+                    </div>
+                    <div class="item slider-top-banners">
+                        <img class="owl" src="assets/img/home/slider/Slideshow-03.jpg">
+                    </div>
+                    <div class="item slider-top-banners">
+                        <img class="owl" src="assets/img/home/slider/Slideshow-04.jpg">
+                    </div>
+                    <div class="item slider-top-banners">
+                        <img class="owl" src="assets/img/home/slider/Slideshow-05.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Property -->
+        <div class="row py-3 bg-gray-blog" dir="rtl">
+            <div class="col-sm-3 p-0 m-0 d-none d-lg-block text-right">
+                <a href="#"><img src="assets/img/home/co-features/item_1.png" class="img-responsive img-top-property"
+                        alt=""><span class="text-top-property"> نظارت چاپ، تضمین کیفیت و رضایت مشتری</span></a>
+            </div>
+            <div class="col-sm-3 p-0 m-0 d-none d-lg-block text-right">
+                <a href="#"><img src="assets/img/home/co-features/item_2.png" class="img-responsive img-top-property"
+                        alt=""><span class="text-top-property"> چاپ دیجیتال فوری با کیفیت بالا </span></a>
+            </div>
+            <div class="col-sm-3 p-0 m-0 d-none d-lg-block text-center">
+                <a href="#"><img src="assets/img/home/co-features/item_3.png" class="img-responsive img-top-property"
+                        alt=""><span class="text-top-property text-center"> چاپ شبانه روزی با هماهنگی قبلی برای سفارشات
+                        فوری</span></a>
+            </div>
+            <div class="col-sm-3 p-0 m-0 d-none d-lg-block text-center">
+                <a href="#"><img src="assets/img/home/co-features/item_4.png" class="img-responsive img-top-property"
+                        alt=""><span class="text-top-property"> ارسال سریع و مطمئن به تمام نقاط ایران </span></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="container">
+        <!-- The most visited products -->
+        <div class="row mt-3">
+            <div class="col-12">
+                <h4 class="text-center header-title-rows">پربازدیدترین محصولات</h4>
+            </div>
+        </div>
+        <!-- 16 card for The most visited products -->
+        <div class="row" dir="rtl">
+            <!-- 1 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-1.jpg" alt="چاپ پوستر و اعلان آنلاین">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ پوستر و اعلان آنلاین</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-2.jpg" alt="چاپ پلات و لمینت آنلاین">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ پلات و لمینت آنلاین</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-3.jpg"
+                            alt="چاپ شاسی‌ mdf نمایشگاهی آنلاین">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ شاسی‌ mdf نمایشگاهی آنلاین</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-4.jpg" alt="چاپ میز کانتر آنلاین">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ میز کانتر آنلاین</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-5.jpg" alt="چاپ پاپ آپ آنلاین">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ پاپ آپ آنلاین</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-6.jpg" alt="چاپ رول آپ آنلاین">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ رول آپ آنلاین</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-7.jpg" alt="چاپ استند آنلاین">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ استند آنلاین</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-8.jpg"
+                            alt="چاپ تراکت و برگی آنلاین (دستگاه رنگی)">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ تراکت و برگی آنلاین (دستگاه رنگی)
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 9 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-9.jpg" alt="چاپ کتاب تیراژ کم آنلاین">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ کتاب تیراژ کم آنلاین</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-10.jpg"
+                            alt="چاپ کاتالوگ و ژورنال آنلاین">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ کاتالوگ و ژورنال آنلاین</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 11 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-11.jpg" alt="چاپ بروشور  آنلاین">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ بروشور آنلاین</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 12 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-12.jpg" alt="چاپ سربرگ آنلاین">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ سربرگ آنلاین</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 13 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-13.jpg" alt="چاپ کارت ویزیت آنلاین">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ کارت ویزیت آنلاین</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 14 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-14.jpg" alt="چاپ مِش (Mesh) آنلاین">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ مِش (Mesh) آنلاین</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 15 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-15.jpg"
+                            alt="چاپ استیکر و وینیل آنلاین">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ استیکر و وینیل آنلاین</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 16 -->
+            <div class="col-lg-3 col-sm-6 col-xs-12 mb-2">
+                <div class="card card-border-gray rounded-0 p-0">
+                    <a href="#">
+                        <img class="card-img-top" src="assets/img/category/poster-16.jpg" alt="چاپ بنر فوری آنلاین">
+                        <div class="card-body text-center p-0">
+                            <h6 class="card-title card-title-header-index py-1">چاپ بنر فوری آنلاین</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- 2buttons -->
+        <div class="row mt-4" dir="rtl">
+            <div class="col-12">
+                <p class="text-center">
+                    <button class="btn-black">تمام محصولات</button>
+                    <button class="btn-black">تماس با مشاوران کوفا</button>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+
+        <!-- order-steps -->
+        <div class="row  mb-5" dir="rtl">
+            <div class="col-md-12  d-none  d-lg-block ">
+                <h3 class="text-center header-title-rows mb-3 mt-2">مراحل چاپ دیجیتال در سریعترین زمان با چاپ کوفا </h3>
+                <div class="order-steps row">
+
+
+                    <ul class="list-unstyled">
+                        <li><span class="image"><img src="assets/img/home/order-steps/item-1.png"></span><span
+                                class="text">هزینه چاپ را محاسبه کنید</span></li>
+                        <li><span class="image"><img src="assets/img/home/order-steps/item-2.png"></span><span
+                                class="text">هزینه چاپ را پرداخت نمایید</span></li>
+                        <li><span class="image"><img src="assets/img/home/order-steps/item-3.png"></span><span
+                                class="text">فایل را آپلود و سفارش خود را ثبت نمایید</span></li>
+                        <li><span class="image"><img src="assets/img/home/order-steps/item-4.png"></span><span
+                                class="text">سفارش خود را تحویل بگیرید</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 2 col img && li -->
+        <div class="row text-right mb-5" dir="rtl">
+            <div class="col-lg-6  d-none  d-lg-block">
+                <img src="assets/img/order-steps-prop/item-img.jpg" class="img-fluid px-5" alt="">
+            </div>
+            <div class="col-lg-6  d-none  d-lg-block mt-3">
+                <!-- 1 -->
+                <div class="row my-3">
+                    <div class="col-1 px-0 mx-0">
+                        <img src="assets/img/order-steps-prop/item_1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-10 px-0 mx-0 mr-3">
+                        <p class="case-of-Property"><a class="a-golden">گارانتی خدمات و محصولات چاپ </a></p>
+                    </div>
+
+                </div>
+                <!-- 2 -->
+                <div class="row my-3">
+                    <div class="col-1 px-0 mx-0">
+                        <img src="assets/img/order-steps-prop/item_3.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-10 px-0 mx-0 mr-3">
+                        <p class="case-of-Property"><span class="text-orange">تخفیف تا ۱6%</span><span>نسبت به تیراژهای
+                                مختلف</span></p>
+                    </div>
+
+                </div>
+                <!-- 3 -->
+                <div class="row my-3">
+                    <div class="col-1 px-0 mx-0">
+                        <img src="assets/img/order-steps-prop/item_2.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-10 px-0 mx-0 mr-3">
+                        <p class="case-of-Property ">
+                            <a class="a-golden" href="#"> اطلاعات تخصصی چاپ و گرافیک</a>
+                            <br>
+                            <a href="" class="a-golden"> را در قسمت ویکی چاپ ببینید </a></p>
+                    </div>
+
+                </div>
+                <!-- 4 -->
+                <div class="row my-3">
+                    <div class="col-1 px-0 mx-0">
+                        <img src="assets/img/order-steps-prop/item_4.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-10 px-0 mx-0 mr-3">
+                        <p class="case-of-Property"><span>
+                                پشتیبانی کوفا همیشه پاسخگوی شماست </span>
+                            <br>
+                            <span class="case-of-Property-gray ">
+                                <span>
+                                    ازطریق
+                                </span>
+                                <span class="text-orange">
+                                    پشتیبانی آنلاین
+                                </span>
+                                <span> یا تلفن</span>
+                                <span class="text-orange">
+                                    ۰۴ ۰۲ ۷۶ ۸۸ ۰۲۱
+                                </span>
+                                <span>با ما در تماس باشید.</span>
+                            </span>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- client -->
+        <div class="row">
+            <div class="col-lg-12 d-none  d-lg-block">
+                <h4 class="text-center header-title-rows">برخی مشتریان </h4>
+                <p class="text-center header-description-rows mb-5">همراهانی که در طول سال‌ها افتخار همکاری آنان را
+                    داشته‌ایم</p>
+
+                <div class="owl-carousel owl-theme two-slider">
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_1.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_2.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_3.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_4.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_5.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_6.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_7.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_8.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_9.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_10.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_11.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_12.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_13.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_14.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_14.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_15.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_16.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_17.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_18.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_19.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_20.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_21.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_22.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_23.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_24.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_25.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_26.png">
+                    </div>
+                    <div class="item item-img-client-logo">
+                        <img class="owl" src="assets/img/co-brands/item_27.png">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div class="col-12 bg-img-services  px-0">
+        <div class="bg-img-services-hover px-0 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-center header-title-rows text-light"> چاپ بیش از 7500 بنر <span
+                                class="text-blue"> در سال</span>
+                        </h3>
+                        <p class=" header-description-rows text-light text-center">اگر یکی از شرایط زیر را برآورده کرده
+                            اید ، از شرایط خلاق و خدمات طراحی رایگان لذت ببرید</p>
+                    </div>
+                </div>
+                <div class="row pt-2 pb-0" dir="rtl">
+                    <div class="col-lg-4 col-12 text-center">
+                        <p class="text-services-icon text-white"><img src="assets/img/home/services/icon-1.png" alt="">
+                            <span class="pr-4">بیش از 500 کارمند</span></p>
+                    </div>
+                    <div class="col-lg-4 col-12 text-center">
+                        <p class="text-services-icon text-white"><img src="assets/img/home/services/icon-2.png" alt="">
+                            <span class="pr-4">بیش از 5 حق رای دادن</span></p>
+
+                    </div>
+                    <div class="col-lg-4 col-12 text-center">
+                        <p class="text-services-icon text-white"><img src="assets/img/home/services/icon-3.png" alt="">
+                            <span class="pr-4">بیش از 7500 پرینت سالانه</span></p>
+
+                    </div>
+                </div>
+                <div class="row mt-4 text-center" dir="rtl">
+                    <div class="col-12">
+                        <button class="btn-services">اکنون درخواست اعتبار کنید</button>
+                        <span class="d-block text-light span-for-btn-services" for="">و جزوه نمونه رایگان ما را دریافت کنید</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blog -->
+    <div class="col-12 bg-gray-blog py-4">
+        <div class="container">
+            <!-- row slider 1 -->
+            <div class="row ">
+                <div class="col-12 mb-2">
+                    <h4 class="text-center header-title-rows">آخرین مطالب وبلاگ</h4>
+                </div>
+                <div class="owl-carousel owl-theme three-slider">
+                    <!-- 1 -->
+                    <div class="item">
+                        <div class=" rounded  text-center">
+                            <img src="assets/img/blog/banner-blog-1.jpg" class="pb-2  img-fluid " alt="" srcset="">
+                            <h6 class="text-center blog-title-index mt-2 mb-4">(آشنایی با طراحان گرافیک ایران) - ابراهیم
+                                حقیقی
+                            </h6>
+                            <p class="px-lg-4 px-0 text-justify blog-description-index pb-0 mb-0" dir="rtl">
+                                ابراهیم حقیقی یکی از بزرگان عرصه‌ی گرافیک معاصر ایران، متولد ۱۳ مهر سال ۱۳۲۸ در تهران،
+                                از مادری...
+                            </p>
+                            <button class="blog-btn-index mt-1">بخوانید</button>
+
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="item">
+                        <div class=" rounded  text-center">
+                            <img src="assets/img/blog/banner-blog-2.jpg" class="pb-2  img-fluid " alt="" srcset="">
+                            <h6 class="text-center blog-title-index mt-2 mb-4">
+                                نکته‌هایی برای شروع یک کار تبلیغاتی (1)
+                            </h6>
+                            <p class="px-lg-4 px-0 text-justify blog-description-index pb-0 mb-0" dir="rtl">ّ
+                                اگر کار تبلیغاتی یک کار بزرگ نیست، پس چیست؟
+                                تبلیغات تنها نتیجه رشد سرمایه‌داری نیست، بلکه د...
+                            </p>
+                            <button class="blog-btn-index mt-1">بخوانید</button>
+
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="item">
+                        <div class=" rounded  text-center">
+                            <img src="assets/img/blog/banner-blog-3.jpg" class="pb-2  img-fluid " alt="" srcset="">
+                            <h6 class="text-center blog-title-index mt-2 mb-4">(آشنایی با طراحان گرافیک دنیا) - ربیرو
+                            </h6>
+                            <p class="px-lg-4 px-0 text-justify blog-description-index pb-0 mb-0" dir="rtl">
+                                آنتونیو فرناندز ربیرو (Antonio Fernández Reboiro)، پسر مهاجران اسپانیایی "آنتونیو
+                                فرنان...
+                            </p>
+                            <button class="blog-btn-index mt-1">بخوانید</button>
+
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="item">
+                        <div class=" rounded  text-center">
+                            <img src="assets/img/blog/banner-blog-4.jpg" class="pb-2  img-fluid " alt="" srcset="">
+                            <h6 class="text-center blog-title-index mt-2 mb-4">نکته‌هایی برای شروع یک کار تبلیغاتی (2)
+                            </h6>
+                            <p class="px-lg-4 px-0 text-justify blog-description-index pb-0 mb-0" dir="rtl">
+                                تبلیغ خوب، باعث افزایش فروش می‌شود و تبلیغ عالی کارخانه‌ها را می‌سازد.
+                                به پایان رسا...
+                            </p>
+                            <button class="blog-btn-index mt-1">بخوانید</button>
+
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="item">
+                        <div class=" rounded  text-center">
+                            <img src="assets/img/blog/banner-blog-5.jpg" class="pb-2  img-fluid " alt="" srcset="">
+                            <h6 class="text-center blog-title-index mt-2 mb-4">چاپ طلاکوب
+                            </h6>
+                            <p class="px-lg-4 px-0 text-justify blog-description-index pb-0 mb-0" dir="rtl">
+                                چاپ طلاکوب یکی از جلوه‌های ویژه‌ی خلاقانه در صنعت چاپ است که مانند روش‌های دیگر باعث ...
+                            </p>
+                            <button class="blog-btn-index mt-1">بخوانید</button>
+
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="item">
+                        <div class=" rounded  text-center">
+                            <img src="assets/img/blog/banner-blog-6.jpg" class="pb-2  img-fluid " alt="" srcset="">
+                            <h6 class="text-center blog-title-index mt-2 mb-4">نمایشگاه سرو نقره‌ای
+                            </h6>
+                            <p class="px-lg-4 px-0 text-justify blog-description-index pb-0 mb-0" dir="rtl">
+                                سرو نقره‌ای که فرصتی است برای همه اعضای انجمن صنفی طراحان گرافیک ایران، تا گزارشی از
+                                فعالیت&zwn...
+                            </p>
+                            <button class="blog-btn-index mt-1">بخوانید</button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- row slider 2 -->
+            <div class="row ">
+                <div class="col-12 mb-2">
+                    <h4 class="text-center header-title-rows">آخرین مطالب ویکی چاپ</h4>
+                </div>
+                <div class="owl-carousel owl-theme three-slider">
+                    <!-- 1 -->
+                    <div class="item">
+                        <div class=" rounded  text-center">
+                            <img src="assets/img/blog/banner-blog-7.jpg" class="pb-2  img-fluid " alt="" srcset="">
+                            <h6 class="text-center blog-title-index mt-2 mb-4">ترام
+                            </h6>
+                            <p class="px-lg-4 px-0 text-justify blog-description-index pb-0 mb-0" dir="rtl">
+                                ترام یک جزء کوچک کار چاپی می‌باشد. نقطه‌های ریزی که از تراکم یا پراکندگی آن‌ها سایه&z...
+                            </p>
+                            <button class="blog-btn-index mt-1">بخوانید</button>
+
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="item">
+                        <div class=" rounded  text-center">
+                            <img src="assets/img/blog/banner-blog-8.jpg" class="pb-2  img-fluid " alt="" srcset="">
+                            <h6 class="text-center blog-title-index mt-2 mb-4">
+                                چاپ فلز و قوطی
+                            </h6>
+                            <p class="px-lg-4 px-0 text-justify blog-description-index pb-0 mb-0" dir="rtl">ّ
+                                ورق‌هایی که در قوطی‌ سازی‌های ایران استفاده می‌شود اکثرا وارداتی می‌باشد ام...
+                            </p>
+                            <button class="blog-btn-index mt-1">بخوانید</button>
+
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="item">
+                        <div class=" rounded  text-center">
+                            <img src="assets/img/blog/banner-blog-9.jpg" class="pb-2  img-fluid " alt="" srcset="">
+                            <h6 class="text-center blog-title-index mt-2 mb-4">موک آپ
+                            </h6>
+                            <p class="px-lg-4 px-0 text-justify blog-description-index pb-0 mb-0" dir="rtl">
+                                موکاپ (mockup) اصطلاحی است که طراحان وب و گرافیک برای فایل پیش نمایش استفاده می‌کنند‌،
+                                mo...
+                            </p>
+                            <button class="blog-btn-index mt-1">بخوانید</button>
+
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="item">
+                        <div class=" rounded  text-center">
+                            <img src="assets/img/blog/banner-blog-10.jpg" class="pb-2  img-fluid " alt="" srcset="">
+                            <h6 class="text-center blog-title-index mt-2 mb-4">لمپوست بنرها
+                            </h6>
+                            <p class="px-lg-4 px-0 text-justify blog-description-index pb-0 mb-0" dir="rtl">
+                                در حوزه تبلیغات رسانه محیطی هر روز شاهد ظهور ابزارهای جدید تبلیغاتی هستیم که از گوشه و
+                                کن...
+                            </p>
+                            <button class="blog-btn-index mt-1">بخوانید</button>
+
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="item">
+                        <div class=" rounded  text-center">
+                            <img src="assets/img/blog/banner-blog-11.jpg" class="pb-2  img-fluid " alt="" srcset="">
+                            <h6 class="text-center blog-title-index mt-2 mb-4">چاپ فلکسی (Flexi) چیست؟
+                            </h6>
+                            <p class="px-lg-4 px-0 text-justify blog-description-index pb-0 mb-0" dir="rtl">
+                                فلکسی فیس یا همان فلکسی نوعی فرمت چاپی است که برای سردر تابلو فروشگاه‌ها، مغازه‌ها،
+                                بیلبو...
+                            </p>
+                            <button class="blog-btn-index mt-1">بخوانید</button>
+
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="item">
+                        <div class=" rounded  text-center">
+                            <img src="assets/img/blog/banner-blog-12.jpg" class="pb-2  img-fluid " alt="" srcset="">
+                            <h6 class="text-center blog-title-index mt-2 mb-4">شرینک اسلیو (Shrink Sleeve) چیست؟
+                            </h6>
+                            <p class="px-lg-4 px-0 text-justify blog-description-index pb-0 mb-0" dir="rtl">
+                                ایجاد جلوه‌های بصری، امروزه از طریق شیوه‌های مختلف چاپ و یا استفاده از برچسب‌های رنگی...
+                            </p>
+                            <button class="blog-btn-index mt-1">بخوانید</button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top footer -->
+    <div class="col-12 bg-block d-none d-lg-block d-md-block">
+        <div class="row pt-2 pb-0" dir="rtl">
+            <div class="col-lg-4 col-12 text-center">
+                <p class="text-footer-bg-black text-white">ساعت کاری : از شنبه تا پنج شنبه ۹ الی ۱۹</p>
+            </div>
+            <div class="col-lg-4 col-12 text-center">
+                <p class="text-footer-bg-black text-white"> ارسال فایل های چاپی با ایمیل: koofaprint[@]gmail.com</p>
+            </div>
+            <div class="col-lg-4 col-12 text-center">
+                <p class="text-footer-bg-black text-white"> رسیدگی به نظرات و شکایات: crm[@]koofaprint.ir</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer 1 -->
+    <div class="col-12 bg-blue-footer">
+        <h4 class="text-center text-white pt-3 header-footer-title pb-2">.سفارشی امن و راحت را تجریه کنید</h4>
+        <div class="row pt-2 pb-0 px-lg-5 px-md-5 px-0" dir="rtl">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                <img src="assets/img/footer/enamad.png" class="img-fluid w-50 mb-2" alt="">
+                <p class="text-footer-1-p text-white">دارای نماد اعتماد الكترونیكی کسب و کار های اینترنتی</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                <img src="assets/img/footer/item_1.png" class="img-fluid w-50 mb-2" style="display: inline!important;"
+                    alt="">
+                <p class="text-footer-1-p text-white"><a href="#" class="a-golden">نظارت، تضمین کیفیت و رضایت مشتری</a>
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                <img src="assets/img/footer/item_2.png" class="img-fluid w-50 mb-2" style="display: inline!important;"
+                    alt="">
+                <p class="text-footer-1-p text-white"> <a href="" class="a-golden">خدمات 24 ساعته فوری
+                    </a>
+                    <br>
+                    <br>
+                    <a href="" class="a-golden"> با هماهنگی قبلی</a></p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                <img src="assets/img/footer/item_3.png" class="img-fluid w-50 mb-2" alt="">
+                <p class="text-footer-1-p text-white"> <a href="" class="a-golden">ارسال سریع و مطمئن به تمام نقاط
+                        ایران</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- footer 2 -->
+    <div class="col-12 bg-block d-none d-lg-block d-md-block">
+        <h4 class="text-center text-white pt-3 header-footer-title pb-2">.سفارشی امن و راحت را تجریه کنید</h4>
+        <div class="row pt-2 pb-0 px-5" dir="rtl">
+            <div class="col-lg-3 col-md-12 col-sm-6 col-12 text-center">
+                <div style="position: relative;">
+                    <p class="header-footer-2-title">همواره پاسخگوی شما هستیم.</p>
+                </div>
+                <p class="number-footer-2" dir="ltr">۰۲۱ ۸۸ ۷۶ ۰۲ ۰۴</p>
+                <img src="assets/img/footer/vitem_1.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-6 col-12 text-center">
+                <div style="position: relative;">
+                    <p class="header-footer-2-title">ویکی پدیای چاپ و طراحی در کوفا</p>
+                </div>
+                <br>
+
+                <img src="assets/img/footer/vitem_2.png" class="img-fluid mt-2" alt="">
+
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-6 col-12 text-center">
+                <div style="position: relative;">
+                    <p class="header-footer-2-title">سایر بخش‌ها </p>
+                    <p class="text-right">
+                        <a class="link-footer-2-a" href="">قوانین و مقررات</a>
+                        <br>
+                        <a class="link-footer-2-a" href="">نظارت، تضمین کیفیت و رضایت مشتری</a>
+                        <br>
+                        <a class="link-footer-2-a" href="">گارانتی خدمات و محصولات</a>
+                        <br>
+                        <a class="link-footer-2-a" href="">روش‌های ارسال</a>
+                        <br>
+                        <a class="link-footer-2-a" href=""> روش‌های پرداخت</a>
+                        <br>
+                        <a class="link-footer-2-a" href="">سیاست حفظ حریم خصوصی</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-6 col-12 text-center">
+                <div style="position: relative;">
+                    <p class="header-footer-2-title">کوفا پرینت در شبکه های اجتماعی</p>
+                    <div>
+                        <i class="fa fa-instagram social-icon-footer p-2 rounded-circle mx-1"></i>
+                        <i class="fa fa-telegram social-icon-footer p-2 rounded-circle mx-1"></i>
+                        <i class="fa fa-facebook social-icon-footer p-2 rounded-circle mx-1"></i>
+                        <i class="fa fa-linkedin social-icon-footer p-2 rounded-circle mx-1"></i>
+                    </div>
+                </div>
+
+                <div style="position: relative;">
+                    <p class="header-footer-2-title">محصولات</p>
+                </div>
+
+                <p class="px-4 p-link-footer-2-last-col">
+                    <a class="link-footer-2-last-col">چاپ کارت ویزیت فوری</a>
+                    <a class="link-footer-2-last-col">چاپ دیجیتال فوری</a>
+                    <a class="link-footer-2-last-col">چاپ سربرگ فوری</a>
+                    <a class="link-footer-2-last-col">چاپ تراکت فوری</a>
+                    <a class="link-footer-2-last-col">چاپ بروشور فوری</a>
+                    <a class="link-footer-2-last-col">چاپ پاکت فوری</a>
+                    <a class="link-footer-2-last-col">چاپ کاتالوگ فوری</a>
+                    <a class="link-footer-2-last-col">چاپ پوستر فوری</a>
+                    <a class="link-footer-2-last-col">چاپ کارت دعوت فوری</a>
+                    <a class="link-footer-2-last-col">پلات و لمینیت فوری</a>
+                    <a class="link-footer-2-last-col">چاپ عکس فوری</a>
+                    <a class="link-footer-2-last-col">چاپ فوم برد فوری</a>
+                    <a class="link-footer-2-last-col">چاپ شاسی فوری</a>
+                    <a class="link-footer-2-last-col">چاپ رول آپ فوری</a>
+                    <a class="link-footer-2-last-col">چاپ پاپ آپ فوری</a>
+                    <a class="link-footer-2-last-col">چاپ میز کانتر فوری</a>
+                    <a class="link-footer-2-last-col">چاپ استند فوری</a>
+                    <a class="link-footer-2-last-col">چاپ بنر فوری</a>
+                    <a class="link-footer-2-last-col">چاپ فلکس فوری</a>
+                    <a class="link-footer-2-last-col">چاپ استیکر فوری</a>
+                    <a class="link-footer-2-last-col">چاپ مش فوری</a>
+                    <a class="link-footer-2-last-col">چاپ سولیت فوری</a>
+                    <a class="link-footer-2-last-col">چاپ کاغذ دیواری فوری</a>
+                    <a class="link-footer-2-last-col">چاپ فوری</a>
+
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <!-- bottom footer -->
+    <div class="col-12 bg-bottom-footer">
+        <div class="row pt-2">
+            <div class="col-12">
+                <p class="text-center" dir="rtl">
+                    <a class="link-footer-bottom-last-col">درباره ما</a>
+                    <a class="link-footer-bottom-last-col">تماس با چاپ کوفا</a>
+                    <a class="link-footer-bottom-last-col">فرصت های شغلی</a>
+                    <a class="link-footer-bottom-last-col">قوانین و مقررات</a>
+                    <a class="link-footer-bottom-last-col">ثبت نظرات و شکایات</a>
+                    <a class="link-footer-bottom-last-col">همکاران ما</a>
+                </p>
+                <p class="p-footer-bottom text-center">استفاده از مطالب این سایت ققط برای مقاصد غیر تجاری و با ذکر منبع
+                    بلامانع است. کلیه حقوق این سایت متعلق به کانون آگهی و تبلبغاتی ارتباط تصویر پاسخ می باشد</p>
+                <p class="p-footer-bottom text-center">Copyright © | 2015 - 2020 | www.koofaprint.ir</p>
+            </div>
+        </div>
+    </div>
 
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="assets/plugins/bootstrap/v3/js/bootstrap.min.js"></script>
+<script src="assets/plugins/owl/owl.carousel.min.js"></script>
+<script src="assets/js/custom.js"></script>
+
 </html>
