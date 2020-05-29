@@ -1,0 +1,52 @@
+
+@media screen and (max-width: 1366px){
+    
+	
+}
+
+
+@media screen and (max-width: 1260px){
+
+	
+}	
+
+
+
+@media screen and (max-width: 1024px){
+	
+
+
+}	
+
+
+@media screen and (max-width: 960px){
+	
+
+  
+}
+
+
+@media screen and (max-width: 840px){
+	
+	
+}
+
+@media screen and (max-width: 768px){
+	
+    .nav-lg-sticky
+    {
+        position: static;
+        background-color: rgb(255, 255, 255);
+        z-index: 10;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        top:0;
+        clear: both;
+    }
+
+}
+@media screen and (max-width: 400px){
+	
+    [dir=rtl] .mm-btn_prev:before {
+        right: -230px;
+    }
+}
