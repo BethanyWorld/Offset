@@ -13,21 +13,27 @@
 
 
 @media screen and (max-width: 1024px){
-	
 
 
 }	
 
 
 @media screen and (max-width: 960px){
-	
+	  
 
   
 }
 
 
 @media screen and (max-width: 840px){
-	
+    .offer-information-slider .owl-next
+    {    
+        top: 25%;    
+    }
+    .offer-information-slider .owl-prev
+    {       
+        top: 25%;
+    }
 	
 }
 

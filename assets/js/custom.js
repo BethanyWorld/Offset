@@ -3,6 +3,7 @@ $(document).ready(function () {
     var two = $(".two-slider");
     var three = $(".three-slider");
     var four = $(".four-slider");
+    var offer=$(".offer-information-slider")
     one.owlCarousel({
         margin: 0,
         dots: true,
@@ -77,6 +78,24 @@ $(document).ready(function () {
             },
             1000: {
                 items: 1
+            }
+        }
+    });
+    offer.owlCarousel({
+        loop: true,
+        // margin: 20,
+        margin: 10,
+        nav: true,
+        navText: ["<i class='fa fa-angle-left' style='color:rgb(41, 181, 220)'></i>","<i class='fa fa-angle-right' style='color:rgb(41, 181, 220)'></i>"],
+        responsive: {
+            0: {
+                items: 2
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
             }
         }
     });
