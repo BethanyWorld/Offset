@@ -52,6 +52,10 @@
     .icon-gray {
          display: none;
      }
+     .contant-us .contant-us-bg .contant-us-img
+    {
+      position: static;
+    }
 
 }
 @media screen and (max-width: 400px){

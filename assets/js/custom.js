@@ -3,7 +3,8 @@ $(document).ready(function () {
     var two = $(".two-slider");
     var three = $(".three-slider");
     var four = $(".four-slider");
-    var offer=$(".offer-information-slider")
+    var offer=$(".offer-information-slider");
+    var offset=$(".slider-offset-block");
     one.owlCarousel({
         margin: 0,
         dots: true,
@@ -99,6 +100,25 @@ $(document).ready(function () {
             }
         }
     });
+    offset.owlCarousel({
+        loop: true,
+        // margin: 20,
+        margin: 10,
+        nav: true,
+        dots: false,
+        navText: ["<i class='fa fa-angle-left' style='color:rgb(191, 191, 191);font-size:25px'></i>","<i class='fa fa-angle-right' style='color:rgb(191, 191, 191);font-size:25px'></i>"],
+        responsive: {
+            0: {
+                items: 2
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 4
+            }
+        }
+    });
 
 });
 // mmenu
@@ -125,5 +145,21 @@ $(window).on('load', function () {
     });
 });
 
-//
+//step progress
+$('.steps').on('click', '.step--active', function () {
+    $(this).removeClass('step--incomplete').addClass('step--complete');
+    $(this).removeClass('step--active').addClass('step--inactive');
+    $(this).next().removeClass('step--inactive').addClass('step--active');
+});
+
+$('.steps').on('click', '.step--complete', function () {
+    $(this).removeClass('step--complete').addClass('step--incomplete');
+    $(this).removeClass('step--inactive').addClass('step--active');
+    $(this).nextAll().removeClass('step--complete').addClass('step--incomplete');
+    $(this).nextAll().removeClass('step--active').addClass('step--inactive');
+});
  
+// index 4 select box
+   $( function() {
+    $( "#selectable" ).selectable();
+  } );
