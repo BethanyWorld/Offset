@@ -1248,4 +1248,266 @@ nav>div a.nav-item.nav-link:focus {
     font-size: 14px;
 }
 
+/****************************** 
+          index 5
+*******************************/
+.breadcrumb-top-page-header
+{
+    font-size: 23px ;
+    font-weight: bold;
+}
+.sell-table th
+{
+    font-size: 15px;
+}
+.sell-table tr
+{
+    font-size: 14px;
+}
+.sell-table .img-tabel-sell
+{
+    width: 60px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.sell-table .icon-trash-sell
+{
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.sell-table .icon-trash-sell:hover
+{
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+/* off-form */
+.off-form .label-off-form
+{
+    font-size: 13px;
+}
+.off-form .text-input-off-form
+{
+    border-width: 2px;
+    border-radius:0;
+    outline: none;
+}
+.off-form .text-input-off-form:focus,
+.off-form .text-input-off-form:active
+{
+    border: 2px solid black;
+    box-shadow: none;
+}
+.off-form .btn-black-off-form
+{
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    outline: none;
+    transition: all .3s;
+    font-size: 10px;
+    height: 38px;
+}
+.off-form .btn-black-off-form:hover,
+.off-form .btn-black-off-form:active,
+.off-form .btn-black-off-form:focus
+{
+    box-shadow: none !important;
+    background-color: #ffc42b;
+    color: #000;
+}
 
+.off-form .description-off-form
+{
+    font-size: 12px;
+}
+/* factor-check */
+.header-list-factor
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+.radio-button-none-list-factor label
+{
+    font-size: 14px;
+}
+.check-factor .description-factor-check
+{
+    font-size: 13px;
+}
+.check-factor .label-factor
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+.check-factor .input-factor
+{
+    border-radius: 2px;
+    outline: none;
+    height: 32px
+}
+.check-factor .input-factor:focus,
+.check-factor .input-factor:active
+{
+    border: 1px solid black;
+    box-shadow: none;
+}
+
+
+
+/*  box-yellow */
+.box-yellow
+{
+    border:2px solid #ffc42b;
+    font-size: 12px;
+    font-weight: bold;
+}
+/* box-gray */
+.box-gray
+{
+    border: 2px solid #eee;
+}
+.box-gray .label-box-gray
+{
+    font-size: 12px;
+}
+.box-gray .select-input-box-gray
+{
+    border-radius: 0;
+    outline: none;
+    height: 33px;
+}
+.box-gray .select-input-box-gray:focus,
+.box-gray .select-input-box-gray:active
+{
+    border: 1px solid black !important;
+    box-shadow: none;
+
+}
+/* button */
+.box-gray .btn-black-box-gray
+{
+    background-color: black;
+    color: white;
+    height: 33px;
+    border-radius: 0;
+    font-size: 13px;
+    transition: all .3s;
+}
+.box-gray .icon-plus-button
+{
+    line-height: 1em;
+    padding: 0 5px 0 10px;
+    vertical-align: bottom;
+    /* color: #ffc42b; */
+    font-size: 17px;
+}
+.box-gray .btn-black-box-gray:hover,
+.box-gray .btn-black-box-gray:focus,
+.box-gray .btn-black-box-gray:active
+{
+    box-shadow: none !important;
+    background-color: #ffc42b;
+    color: #000 !important;
+}
+.box-gray .btn-black-box-gray i:hover
+{
+    box-shadow: none !important;
+    background-color: #ffc42b;
+    color: #000 !important;
+}
+/* input */
+.box-gray .input-text-box-gray
+{
+    border-radius: 0;
+    outline: none;
+    height: 33px;
+
+}
+.box-gray .input-text-box-gray:focus,
+.box-gray .input-text-box-gray:active
+{
+    box-shadow: none;
+    border: 1px solid black;
+}
+/* list-radio-button */
+.list-radio-button .img-radio-button
+{
+    width: 50px;
+    height: auto;
+}
+.list-radio-button .description-radio-button
+{
+    font-size: 12px;
+}
+/* factor-yellow-btn */
+.factor-yellow-btn
+{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    outline: none;
+    padding: 20px 50px;
+    border-radius: 0;
+    font-size: 16px;
+    transition: all .3s;
+}
+
+.icon-factor-yellow-btn
+{
+    font-size: 25px;
+    line-height: 1em;
+    padding: 0 5px 0 10px;
+    vertical-align: bottom;
+}
+
+.factor-yellow-btn:hover,
+.factor-yellow-btn:active,
+.factor-yellow-btn:focus
+{
+    background-color: #ffc42b;
+    color: black !important;
+}
+/* index 6 */
+.call-back-sell-bag-btn
+{
+    background-color: black;
+    color: white;
+    outline: none;
+    border-radius: 0;
+    padding: 10px 20px;
+    transition: all .3s;
+    font-size: 13px;
+    font-weight: bold;
+}
+.call-back-sell-bag-btn:hover,
+.call-back-sell-bag-btn:active,
+.call-back-sell-bag-btn:focus
+{
+    background-color: #ffc42b ;
+    box-shadow: none;
+    color: black;
+}
+/* pay-money-btn */
+.pay-money-btn
+{
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #ffc42b;
+    color: black;
+    outline: none;
+    border-radius: 0;
+    padding: 10px 20px;
+    transition: all .3s;
+}
+.pay-money-btn:hover,
+.pay-money-btn:active,
+.pay-money-btn:focus
+{
+    color: #ffffff ;
+    box-shadow: none;
+}
+.description-end-pay-money
+{
+    font-size: 12px;
+}

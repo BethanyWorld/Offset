@@ -163,3 +163,46 @@ $('.steps').on('click', '.step--complete', function () {
    $( function() {
     $( "#selectable" ).selectable();
   } );
+
+//   index5 factorcheck
+function myFactorCheckFunction() {
+    var checkBox = document.getElementById("myFactorCheck");
+    var text = document.getElementById("factorList");
+    if (checkBox.checked == true) {
+        text.style.display = "block";
+    } else {
+        text.style.display = "none";
+    }
+}
+// INDEX5 radio button real-perason && Legal person
+
+function LegalPersonFunction() {
+    var LegalPerson = document.getElementById("Legal-person");
+    var LegalForm = document.getElementById("Legal-form");
+    var realForm = document.getElementById("real-form");
+
+    if (LegalPerson.checked == true) {
+        LegalForm.style.display = "block";
+        realForm.style.display = "none";
+
+    } else {
+        LegalForm.style.display = "none";
+        realForm.style.display = "block";
+
+    }
+}
+function realPersonFunction() {
+    var realPerson = document.getElementById("real-person");
+    var LegalForm = document.getElementById("Legal-form");
+    var realForm = document.getElementById("real-form");
+
+    if (realPerson.checked == true) {
+        LegalForm.style.display = "none";
+        realForm.style.display = "block";
+
+    } else {
+       
+        LegalForm.style.display = "block";
+        realForm.style.display = "none";
+    }
+}
